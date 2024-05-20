@@ -1,0 +1,8 @@
+{
+  "driver_path": "user/bin/chromedriver",
+  "implicit_wait_time": 10,
+  "base_url": "https://www.playhq.com/basketball-victoria/org/melbourne-central-basketball-association/sunday-cyms-senior-domestic-summer-202324/sunday-senior-men-a/a112a9d0/R{}",
+  "pagination_pattern": "{}",
+  "output_file": "output.csv",
+  "headless": true
+}

@@ -130,3 +130,37 @@ if __name__ == "__main__":
     PythonWebScraper.write_to_csv(data, output_file)
 
 
+# Example: PlayHQ
+# PlayHQ url modified
+# base_url = 'https://www.playhq.com/basketball-victoria/org/melbourne-central-basketball-association/sunday-cyms-senior-domestic-summer-202324/sunday-senior-men-a/a112a9d0/R{}'
+
+# PlayHQ Round 1 url
+# base_url = 'https://www.playhq.com/basketball-victoria/org/melbourne-central-basketball-association/sunday-cyms-senior-domestic-summer-202324/sunday-senior-men-a/a112a9d0/R1'
+# div="sc-10c3c88-0"
+
+# The following div contains the match fixtures
+# <div data-testid="fixture-list" class="sc-10c3c88-0 hLABJT">
+# class_name = "sc-10c3c88-0"
+# data = get_regular_rounds_data(base_url,"sc-10c3c88-0", 1, 10)
+# print(data)
+# output_file = 'data.csv'
+# write_to_csv(data, output_file)
+
+# Example: Eyebuydirect
+# TODO: Quits if there is a ad/Modal blocking the content
+
+# base_url = 'https://au.eyebuydirect.com/eyeglasses#page=2/pagesize=30'
+# div = 'list-content'
+
+# modified url
+# url = 'https://au.eyebuydirect.com/eyeglasses#page={}/pagesize=30'
+
+# if __name__ == "__main__":
+#     # TODO: FILL WITH ACTUAL DATA/EXAMPLE
+#     scraper = PythonWebScraper()
+#     base_url = 'https://example.com/page/{}'
+#     div = 'list-content'
+#     data = scraper.get_data_from_page(base_url, div)
+
+#     output_file = 'data.csv'
+#     PythonWebScraper.write_to_csv(data, output_file)
