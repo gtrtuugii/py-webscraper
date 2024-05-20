@@ -23,7 +23,7 @@ This project is a Python-based web scraper designed to scrape data from web page
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/python-web-scraper.git
+    git clone https://github.com/gtrtuugii/python-web-scraper.git
     cd python-web-scraper
     ```
 
@@ -55,3 +55,9 @@ The scraper uses a configuration file `config.json` to set various parameters. A
     "output_file": "output.csv",
     "headless": true
 }
+
+## Run the scraper
+```bash
+python webscraper.py
+```
+
