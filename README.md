@@ -55,6 +55,7 @@ The scraper uses a configuration file `config.json` to set various parameters. A
     "output_file": "output.csv",
     "headless": true
 }
+```
 
 ## Run the scraper
 ```bash
